@@ -16,10 +16,24 @@ sass:
 permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
-highlighter: pygments
+highlighter: rouge
 gems:
   - jekyll-sitemap
   - jemoji
+  - jekyll-gist
+
+# Octopress configuration
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: article
+page_layout: article
+
+# Format titles with titlecase?
+titlecase: true
 
 # prose
 prose:
@@ -85,7 +99,6 @@ owner:
   twitter: "TheMiniPlayer"
   github: https://github.com/vdesabou/alfred-spotify-mini-player
   google:
-    plus: http://google.com/+Alfred-spotify-mini-player
     ad-client:
     ad-slot:
     youtube: http://youtube.com/c/Alfred-spotify-mini-player
@@ -94,4 +107,4 @@ owner:
 disqus-shortname: #alfred-spotify-mini-player
 
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
