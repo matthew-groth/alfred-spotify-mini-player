@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-11-13
+modified: 2016-02-16
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,17 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.2.5"></a>
+6.2.5:
+
+* <span class="badge info">ADDED</span> Growl notifications [#107](https://github.com/vdesabou/alfred-spotify-mini-player/issues/107)
+
+
+* <span class="badge danger">FIXED</span> Web API Exception: invalid id when browsing an artist with only local tracks [#111](https://github.com/vdesabou/alfred-spotify-mini-player/issues/111)
+
+* <span class="badge danger">FIXED</span> Bug with Remove track from Playlist[#112](https://github.com/vdesabou/alfred-spotify-mini-player/issues/112)
+
 
 <a name="v6.2.4"></a>
 6.2.4:
