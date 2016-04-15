@@ -1,8 +1,9 @@
 language: ruby
 script: "bundle exec jekyll build"
 
+sudo: false
+
 # whitelist
 branches:
   only:
     - gh-pages
- 
