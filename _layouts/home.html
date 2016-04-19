@@ -34,11 +34,22 @@
       <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
     <![endif]-->
 	{% include google_analytics.html %}
-
+    {% if page.ghfr.display != null %}
+      {% assign ghfr_display = page.ghfr.display %}
+    {% else %}
+      {% assign ghfr_display = site.ghfr.display %}
+    {% endif %}
+    {% unless ghfr_display == false %}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+    <![endif]-->
+    {% endunless %}
   </head>
 
  <body id="js-body">
     {% include browser-upgrade.html %}
+    {% include ghfr.html %}
     {% include header.html %}
     {% include navigation-sliding.html %}
 
@@ -47,7 +58,7 @@
       <div class="wrap page-lead-content">
         <h1>Alfred Spotify Mini Player</h1>
         <h2>Alfred 2 workflow to control your Spotify library at your fingertips</h2>
-        <a href="https://github.com/packal/repository/raw/master/com.vdesabou.spotify.mini.player/spotifyminiplayer.alfredworkflow" class="btn-success"><i class="fa fa-download"></i> Download (v6.2.6)</a>  <a href="http://alfred-spotify-mini-player.com/setup/" class="btn-danger"><i class="fa fa-cog"></i> First time use?</a> <a href="https://github.com/vdesabou/alfred-spotify-mini-player/" target="_blank" class="btn-warning"><i class="fa fa-github"></i> View on GitHub</a> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J5GAJ2SR89TLQ " target="_blank" class="btn-info"><i class="fa fa-beer"></i> Buy me a beer!</a>
+        <a href="https://github.com/packal/repository/raw/master/com.vdesabou.spotify.mini.player/spotifyminiplayer.alfredworkflow" class="btn-success"><i class="fa fa-download"></i> Download (v6.2.6)</a>  <a href="http://alfred-spotify-mini-player.com/setup/" class="btn-danger"><i class="fa fa-cog"></i> First time use?</a> <!--<a href="https://github.com/vdesabou/alfred-spotify-mini-player/" target="_blank" class="btn-warning"><i class="fa fa-github"></i> View on GitHub</a> --><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J5GAJ2SR89TLQ " target="_blank" class="btn-warning"><i class="fa fa-beer"></i> Buy me a beer!</a>
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
     {% endif %}

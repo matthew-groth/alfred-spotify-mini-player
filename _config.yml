@@ -35,6 +35,17 @@ page_layout: article
 # Format titles with titlecase?
 titlecase: true
 
+# GitHub Fork Ribbon
+
+ghfr:
+    display:  # false to disable, null for visit, else blob/edit/custom
+    organization: # github organization
+    project: vdesabou/alfred-spotify-mini-player # github project
+    branch: # branch this website is hosted on (master/gh-pages)
+    text: Visit on GitHub
+    blob: Source on GitHub
+    edit: Edit on GitHub
+
 # prose
 prose:
   rooturl: "_posts"
