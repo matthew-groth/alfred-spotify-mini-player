@@ -16,6 +16,8 @@ noindex: false
 <a name="v6.2.6"></a>
 6.2.6:
 
+***WARNING***: To use Top Artists and Top Tracks new feature, you need to re-authorize the workflow by executing ```spot_mini_reset_settings``` 
+
 * <span class="badge info">ADDED</span> Add top artists and tracks for user [#116](https://github.com/vdesabou/alfred-spotify-mini-player/issues/116)
 
 * <span class="badge success">IMPROVED</span> Trigger OS X notifications without changing the current music [#109](https://github.com/vdesabou/alfred-spotify-mini-player/issues/109)
