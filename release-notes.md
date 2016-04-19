@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2016-02-16
+modified: 2016-04-19
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,19 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.2.6"></a>
+6.2.6:
+
+* <span class="badge info">ADDED</span> Add top artists and tracks for user [#116](https://github.com/vdesabou/alfred-spotify-mini-player/issues/116)
+
+* <span class="badge success">IMPROVED</span> Trigger OS X notifications without changing the current music [#109](https://github.com/vdesabou/alfred-spotify-mini-player/issues/109)
+
+* <span class="badge danger">FIXED</span> Search online broken if space is used [#113](https://github.com/vdesabou/alfred-spotify-mini-player/issues/113)
+
+* <span class="badge danger">FIXED</span> localhost site not starting [#114](https://github.com/vdesabou/alfred-spotify-mini-player/issues/114)
+
+* <span class="badge danger">FIXED</span> Now playing pops up even when disabled [#115](https://github.com/vdesabou/alfred-spotify-mini-player/issues/115)
 
 <a name="v6.2.5"></a>
 6.2.5:
