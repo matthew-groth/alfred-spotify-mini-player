@@ -21,6 +21,7 @@ gems:
   - jekyll-sitemap
   - jemoji
   - jekyll-gist
+  - jekyll-seo-tag
 
 # Octopress configuration
 
