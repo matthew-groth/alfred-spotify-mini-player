@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2016-04-19
+modified: 2016-05-20
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,16 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.3"></a>
+6.3:
+
+***WARNING***: This version is only compatible with Alfred v3
+
+* <span class="badge info">ADDED</span> Compatible with Alfred v3
+
+* <span class="badge danger">FIXED</span> Lyrics not found [#115](https://github.com/vdesabou/alfred-spotify-mini-player/issues/120)
+
 
 <a name="v6.2.6"></a>
 6.2.6:
