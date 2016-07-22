@@ -12,6 +12,20 @@ share: false
 toc: false
 noindex: false
 ---
+<a name="v6.4"></a>
+6.4:
+
+* <span class="badge info">ADDED</span> Allow users to rename all commands [#132](https://github.com/vdesabou/alfred-spotify-mini-player/issues/132)
+
+* <span class="badge info">ADDED</span> Toggle repeat on / off from the workflow. [#122](https://github.com/vdesabou/alfred-spotify-mini-player/issues/122)
+
+* <span class="badge danger">FIXED</span> Playlist starting with emoji is causing issues [#129](https://github.com/vdesabou/alfred-spotify-mini-player/issues/129)
+
+* <span class="badge danger">FIXED</span> Charts is broken [#118](https://github.com/vdesabou/alfred-spotify-mini-player/issues/118)
+
+* <span class="badge danger">FIXED</span> Biography is broken [#138](https://github.com/vdesabou/alfred-spotify-mini-player/issues/138)
+
+* <span class="badge danger">FIXED</span> Radio not working [#137](https://github.com/vdesabou/alfred-spotify-mini-player/issues/137)
 
 <a name="v6.3"></a>
 6.3:
