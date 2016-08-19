@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2016-05-20
+modified: 2016-08-19
 excerpt: "Release Notes."
 image:
   feature:
@@ -18,6 +18,8 @@ noindex: false
 * <span class="badge info">ADDED</span> Allow users to rename all commands [#132](https://github.com/vdesabou/alfred-spotify-mini-player/issues/132)
 
 * <span class="badge info">ADDED</span> Toggle repeat on / off from the workflow. [#122](https://github.com/vdesabou/alfred-spotify-mini-player/issues/122)
+
+* <span class="badge info">ADDED</span> Add Spotify Mini Player fallback search. [#134](https://github.com/vdesabou/alfred-spotify-mini-player/issues/134)
 
 * <span class="badge danger">FIXED</span> Playlist starting with emoji is causing issues [#129](https://github.com/vdesabou/alfred-spotify-mini-player/issues/129)
 
