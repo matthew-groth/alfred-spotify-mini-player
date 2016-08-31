@@ -2,7 +2,7 @@
 layout: article
 permalink: /stats/
 title: "Statistics"
-modified: 2015-03-19
+modified: 2016-08-31
 excerpt: "Workflow Statistics."
 image:
   feature:
@@ -39,9 +39,6 @@ noindex: false
 
 <script>StatHatEmbed.render({s1: 'FMrI', w: 760, h: 235 , tf:'month_compare'});</script>
 
-* Number of biographies displayed
-
-<script>StatHatEmbed.render({s1: 'KDkqV', w: 760, h: 235 , tf:'month_compare'});</script>
 
 * Number of lyrics displayed
 
