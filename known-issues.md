@@ -2,7 +2,7 @@
 layout: article
 permalink: /known-issues/
 title: "Known Issues"
-modified: 2015-05-31
+modified: 2016-09-23
 excerpt: "List of Known Issues."
 image:
   feature:
@@ -32,7 +32,7 @@ As a workaround, you can create a new playlist (called 'Starred' for example) an
 
 ## PHP Requirement
 
-* PHP 5.4.0 or later (shipped by default since Mavericks) is required for authentication. This is because I am using the PHP CLI [built-in web server](http://php.net/manual/en/features.commandline.webserver.php) for Oauth process. If you use an older version, there is a [workround](https://github.com/vdesabou/alfred-spotify-mini-player/issues/44#issuecomment-72003149). Ask for more details if required.
+* PHP 5.5.0 or later is required for authentication. This is because I am using the PHP CLI [built-in web server](http://php.net/manual/en/features.commandline.webserver.php) for Oauth process. If you use an older version, there is a [workround](https://github.com/vdesabou/alfred-spotify-mini-player/issues/44#issuecomment-72003149). Ask for more details if required.
 
  
 ## Mopidy
