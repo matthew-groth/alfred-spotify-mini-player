@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2016-08-19
+modified: 2016-09-27
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,15 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.5"></a>
+6.5:
+
+* <span class="badge info">ADDED</span> Add option to allow to download a green theme [#145](https://github.com/vdesabou/alfred-spotify-mini-player/issues/145)
+
+* <span class="badge danger">FIXED</span> Make workflow more resilient to AppleScript output errors[#144](https://github.com/vdesabou/alfred-spotify-mini-player/issues/144)
+
+
 <a name="v6.4"></a>
 6.4:
 
