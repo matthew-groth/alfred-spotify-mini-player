@@ -26,7 +26,7 @@ For each command, you can also define an [hotkey](http://support.alfredapp.com/w
 This is the list of all possible keyword inputs (click to see in fullscreen):-
 
 <figure>
-	<a href="{{ site.url }}/images/commands1.jpg"><img src="{{ site.url }}/images/keyword-inputs1.jpg"></a>
+	<a href="{{ site.url }}/images/commands1.jpg"><img src="{{ site.url }}/images/keyword-inputs1.jpg">
 	<figcaption>List of keyword inputs</figcaption>
 </figure>
 

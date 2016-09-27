@@ -27,7 +27,7 @@ If you're one of the users who have been upgraded to 1.0.2 version, the workflow
 If you have latest version 6.1.2 of the workflow, you'll get a warning message indicating an AppleScript error :-
 
 <figure>
-    <img src="{{ site.url }}/images/blog/spotify_update_problem2.jpg"></a>
+    <img src="{{ site.url }}/images/blog/spotify_update_problem2.jpg">
     <figcaption>Error message you get with version 6.1.1</figcaption>
 </figure> 
 
@@ -40,7 +40,7 @@ Note that you can download `0.9.15.27` and not `0.8.5.1356` as described in the 
 After applying the workaround, you should see a message _There was a problem updating Spotify (BAD FILE SIG)_ :-
 
 <figure>
-    <img src="{{ site.url }}/images/blog/spotify_update_problem.jpg"></a>
+    <img src="{{ site.url }}/images/blog/spotify_update_problem.jpg">
     <figcaption>Message: There was a problem updating Spotify</figcaption>
 </figure>
 

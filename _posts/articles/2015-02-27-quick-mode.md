@@ -21,21 +21,21 @@ By default when you do a search in main menu, you'll be presented with *Browse* 
 * You can activate *Quick Mode* in the *Settings* menu:-
 
 <figure>
-  <img src="{{ site.url }}/images/quick-mode3.jpg"></a>
+  <img src="{{ site.url }}/images/quick-mode3.jpg">
   <figcaption>Activate Quick Mode in Settings menu.</figcaption>
 </figure>
 
 * Then a search in Main Menu will show:-
 
 <figure>
-  <img src="{{ site.url }}/images/quick-mode1.jpg"></a>
+  <img src="{{ site.url }}/images/quick-mode1.jpg">
   <figcaption>Choose any result to launch it immediately.</figcaption>
 </figure>
 
 * With Quick Mode disabled (by default), a search in Main Menu will show:-
 
 <figure>
-  <img src="{{ site.url }}/images/quick-mode2.jpg"></a>
+  <img src="{{ site.url }}/images/quick-mode2.jpg">
   <figcaption>Brose options if Quick Mode is disabled.</figcaption>
 </figure>
 

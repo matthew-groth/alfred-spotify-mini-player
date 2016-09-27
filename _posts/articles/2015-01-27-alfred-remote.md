@@ -22,21 +22,21 @@ There are 3 pages shipped with the workflow:-
 * Playing commands:-
 
 <figure>
-	<img src="{{ site.url }}/images/alfred-remote1.jpg"></a>
+	<img src="{{ site.url }}/images/alfred-remote1.jpg">
 	<figcaption>Remote triggers to control Spotify.</figcaption>
 </figure>
 
 * Show commands:-
 
 <figure>
-	<img src="{{ site.url }}/images/alfred-remote2.jpg"></a>
+	<img src="{{ site.url }}/images/alfred-remote2.jpg">
 	<figcaption>Remote triggers to display workflow and navigate it.</figcaption>
 </figure>
 
 * Other commands:-
 
 <figure>
-	<img src="{{ site.url }}/images/alfred-remote3.jpg"></a>
+	<img src="{{ site.url }}/images/alfred-remote3.jpg">
 	<figcaption>All other remote triggers available with the workflow.</figcaption>
 </figure>
 

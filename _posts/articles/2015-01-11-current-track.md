@@ -19,7 +19,7 @@ onhomepage : true
 * You can get the _current track_ from *Main* menu:-
 
 <figure>
-	<img src="{{ site.url }}/images/current-track1.jpg"></a>
+	<img src="{{ site.url }}/images/current-track1.jpg">
 	<figcaption>Get Current Track from Main menu.</figcaption>
 </figure>
 

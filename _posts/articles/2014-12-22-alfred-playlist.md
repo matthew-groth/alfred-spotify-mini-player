@@ -53,7 +53,7 @@ The Alfred Playlist is simply one of your playlists that you can choose and for 
 A confirmation will be asked:-
 
 <figure>
-	<img src="{{ site.url }}/images/alfred-playlist4.jpg"></a>
+	<img src="{{ site.url }}/images/alfred-playlist4.jpg">
 	<figcaption>Clear your Alfred Playlist.</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ A confirmation will be asked:-
 If you want to control _Your Music_ instead of _Alfred Playlist_, you can change it in the settings:-
 
 <figure>
-	<img src="{{ site.url }}/images/alfred-playlist5.jpg"></a>
+	<img src="{{ site.url }}/images/alfred-playlist5.jpg">
 	<figcaption>Choose to control <i>Your Music</i> or <i>Alfred Playlist</i>.</figcaption>
 </figure>
 

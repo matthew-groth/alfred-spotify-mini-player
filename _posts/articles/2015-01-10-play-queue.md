@@ -19,14 +19,14 @@ onhomepage : true
 * You can get the _Play Queue_ as in the Spotify desktop application from the *Main* menu:-
 
 <figure>
-	<img src="{{ site.url }}/images/play-queue1.jpg"></a>
+	<img src="{{ site.url }}/images/play-queue1.jpg">
 	<figcaption>Get Play Queue from Main menu.</figcaption>
 </figure>
 
 * Then you get the _Play Queue_, you can select a track go directly to this track in the _Play Queue_:-
 
 <figure>
-	<img src="{{ site.url }}/images/play-queue2.jpg"></a>
+	<img src="{{ site.url }}/images/play-queue2.jpg">
 	<figcaption>List of tracks in the Play Queue.</figcaption>
 </figure>
 

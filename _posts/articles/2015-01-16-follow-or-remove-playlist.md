@@ -19,7 +19,7 @@ onhomepage : true
 * You can follow a playlist in the *Search Online* menu results:-
 
 <figure>
-	<img src="{{ site.url }}/images/follow-or-remove-playlist1.jpg"></a>
+	<img src="{{ site.url }}/images/follow-or-remove-playlist1.jpg">
 	<figcaption>Follow a playlist from the search playlist results.</figcaption>
 </figure>
 
@@ -27,21 +27,21 @@ onhomepage : true
 * You can configure if the new followed playlist is _public_ or _private_ in the *Settings* menu:-
 
 <figure>
-    <img src="{{ site.url }}/images/follow-or-remove-playlist2.jpg"></a>
+    <img src="{{ site.url }}/images/follow-or-remove-playlist2.jpg">
     <figcaption>Change default privacy in Settings menu.</figcaption>
 </figure>
 
 * You can remove a playlist from you library from the *Playlist* menu:-
 
 <figure>
-    <img src="{{ site.url }}/images/follow-or-remove-playlist3.jpg"></a>
+    <img src="{{ site.url }}/images/follow-or-remove-playlist3.jpg">
     <figcaption>Remove a plyalist directly from the workflow.</figcaption>
 </figure>
 
 * A confirmation will be asked before removing the playlist:-
 
 <figure>
-    <img src="{{ site.url }}/images/follow-or-remove-playlist4.jpg"></a>
+    <img src="{{ site.url }}/images/follow-or-remove-playlist4.jpg">
     <figcaption>Confirmation is needed before deleting the playlist.</figcaption>
 </figure>
 
