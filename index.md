@@ -50,7 +50,7 @@ Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and pl
 <a href="{{ site.url }}/articles/search-online" class="btn-success"><i class="fa fa-book"></i> Read more</a>
 
   </leftside>
-  <rightside><!--<a href="{{ site.url }}/images/index2.gif">--><img src="{{ site.url }}/images/index2.jpg"></a></rightside>
+  <rightside><!--<a href="{{ site.url }}/images/index2.gif">--><img src="{{ site.url }}/images/index2.jpg"></rightside>
 </sectionleft>
 
 <hr>
