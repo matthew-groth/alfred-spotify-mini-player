@@ -23,7 +23,7 @@ Setting up the workflow is easy, you just need to follow these steps:-
 {: .notice-danger}
 
 <figure>
-	<a href="{{ site.url }}/images/setup1.jpg"><img src="{{ site.url }}/images/setup1.jpg">
+	<a href="{{ site.url }}/images/setup1.jpg"><img src="{{ site.url }}/images/setup1.jpg"></a>
 	<figcaption>Example of Spotify Application (click to enlarge).</figcaption>
 </figure>
 
