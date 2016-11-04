@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="134" height="134" viewBox="0, 0, 134, 134">
+  <g id="Background">
+    <rect x="0" y="0" width="134" height="134" fill="#FFFFFF"/>
+    <g stroke-width="1px">
+      <line x1="12" y1="0" x2="12" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="24" y1="0" x2="24" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="36" y1="0" x2="36" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="48" y1="0" x2="48" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="60" y1="0" x2="60" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="72" y1="0" x2="72" y2="134" stroke="#AAAAAA" stroke-opacity="0.5"/>
+      <line x1="84" y1="0" x2="84" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="96" y1="0" x2="96" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="108" y1="0" x2="108" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="120" y1="0" x2="120" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="132" y1="0" x2="132" y2="134" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="12" x2="134" y2="12" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="24" x2="134" y2="24" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="36" x2="134" y2="36" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="60" x2="134" y2="60" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="72" x2="134" y2="72" stroke="#AAAAAA" stroke-opacity="0.5"/>
+      <line x1="0" y1="84" x2="134" y2="84" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="96" x2="134" y2="96" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="108" x2="134" y2="108" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="120" x2="134" y2="120" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="132" x2="134" y2="132" stroke="#AAAAAA" stroke-opacity="0.25"/>
+    </g>
+  </g>
+  <g id="Calque_1">
+    <g id="disable_mopidy.png">
+      <g id="icon">
+        <g id="Gray_Shape">
+          <path d="M67,132 C31.101,132 2,102.899 2,67 C2,31.101 31.101,2 67,2 C102.899,2 132,31.101 132,67 C132,102.899 102.899,132 67,132 z" fill="#000000"/>
+          <path d="M67,132 C31.101,132 2,102.899 2,67 C2,31.101 31.101,2 67,2 C102.899,2 132,31.101 132,67 C132,102.899 102.899,132 67,132 z" fill-opacity="0" stroke="#000000" stroke-width="5"/>
+        </g>
+        <g id="White_Shape">
+          <path d="M100.712,109.33 L108.399,117.017 C98.473,125.545 86.023,130.326 73.094,131.637 L73.094,120.761 C83.109,119.749 92.934,115.748 100.712,109.33 z" fill="#FFFFFF"/>
+          <path d="M33.288,109.33 C41.09,115.737 50.873,119.744 60.906,120.761 L60.906,131.636 C47.891,130.606 35.627,125.291 25.601,117.017 L33.288,109.33 z" fill="#FFFFFF"/>
+          <path d="M131.637,73.094 C130.606,86.109 125.291,98.373 117.017,108.399 L109.33,100.712 C115.737,92.91 119.744,83.126 120.761,73.094 L131.637,73.094 z" fill="#FFFFFF"/>
+          <path d="M13.239,73.093 C14.251,83.109 18.252,92.934 24.67,100.712 L16.983,108.399 C8.455,98.473 3.674,86.023 2.363,73.094 L13.239,73.093 z" fill="#FFFFFF"/>
+          <path d="M117.017,25.601 L119.087,28.109 C126.287,37.75 130.428,48.982 131.637,60.906 L120.761,60.906 C119.749,50.891 115.748,41.065 109.33,33.288 L117.017,25.601 z" fill="#FFFFFF"/>
+          <path d="M16.983,25.601 L24.67,33.288 C18.263,41.09 14.256,50.874 13.239,60.906 L2.363,60.906 C3.394,47.891 8.709,35.627 16.983,25.601 L16.983,25.601 z" fill="#FFFFFF"/>
+          <path d="M60.906,2.363 L60.906,13.239 C50.891,14.251 41.065,18.252 33.288,24.67 L25.601,16.983 C35.536,8.291 47.993,4.116 60.906,2.363 z" fill="#FFFFFF"/>
+          <path d="M73.094,2.363 C86.109,3.394 98.373,8.709 108.399,16.983 L100.712,24.67 C92.91,18.263 83.126,14.256 73.094,13.239 L73.094,2.363 z" fill="#FFFFFF"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
