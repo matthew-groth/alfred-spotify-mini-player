@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1667" height="1667" viewBox="0, 0, 1667, 1667">
-  <g id="Calque_1">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="127.285" height="127.285" viewBox="0, 0, 127.285, 127.285">
+  <g id="Calque_1" transform="translate(-409.357, -375.357)">
     <g id="icon.png">
       <g id="White_Shape">
         <path d="M506.193,480.679 L513.762,488.247 C503.988,496.644 491.731,501.352 479,502.642 L479,491.934 C488.861,490.937 498.535,486.998 506.193,480.679 z" fill="#000000"/>
