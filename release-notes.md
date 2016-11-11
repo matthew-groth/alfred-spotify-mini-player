@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2016-09-27
+modified: 2016-11-11
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,12 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.6"></a>
+6.6:
+
+* <span class="badge danger">FIXED</span> Launching playlist when Spotify app is not opened[#147](https://github.com/vdesabou/alfred-spotify-mini-player/issues/147)
+
 
 <a name="v6.5"></a>
 6.5:
