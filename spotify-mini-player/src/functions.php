@@ -3,6 +3,10 @@
 require_once './src/workflows.php';
 require './vendor/autoload.php';
 
+use SpotifyWebApiExtensions\GuzzleClientFactory;
+use SpotifyWebApiExtensions\GuzzleRequestAdapter;
+use Doctrine\Common\Cache\FilesystemCache;
+
 /**
  * getSpotifyWebAPI function.
  *
@@ -13,6 +17,8 @@ function getSpotifyWebAPI($w, $old_api = null)
     if (!$w->internet()) {
         throw new SpotifyWebAPI\SpotifyWebAPIException('No internet connection', 100);
     }
+
+    date_default_timezone_set('UTC');
 
     // Read settings from JSON
 
@@ -27,7 +33,12 @@ function getSpotifyWebAPI($w, $old_api = null)
     if ($old_api == null) {
         // create a new api object
         $session = new SpotifyWebAPI\Session($oauth_client_id, $oauth_client_secret, $oauth_redirect_uri);
-        $api = new SpotifyWebAPI\SpotifyWebAPI();
+        $guzzleAdapter = new GuzzleRequestAdapter(
+            GuzzleClientFactory::create(
+                new FilesystemCache($w->cache() . '/cache')
+            )
+        );
+        $api = new SpotifyWebAPI\SpotifyWebAPI($guzzleAdapter);
     }
 
     // Check if refresh token necessary
@@ -37,7 +48,12 @@ function getSpotifyWebAPI($w, $old_api = null)
             // when refresh needed:
             // create a new api object (even if api not null)
             $session = new SpotifyWebAPI\Session($oauth_client_id, $oauth_client_secret, $oauth_redirect_uri);
-            $api = new SpotifyWebAPI\SpotifyWebAPI();
+            $guzzleAdapter = new GuzzleRequestAdapter(
+                GuzzleClientFactory::create(
+                    new FilesystemCache($w->cache() . '/cache')
+                )
+            );
+            $api = new SpotifyWebAPI\SpotifyWebAPI($guzzleAdapter);
         }
         if ($session->refreshAccessToken($oauth_refresh_token) == true) {
             $oauth_access_token = $session->getAccessToken();

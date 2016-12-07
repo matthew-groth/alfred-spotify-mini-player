@@ -1,5 +1,6 @@
 {
     "require": {
-        "jwilsson/spotify-web-api-php": "*"
+        "jwilsson/spotify-web-api-php": "*",
+        "andig/spotify-web-api-extensions": "dev-master"
     }
 }
